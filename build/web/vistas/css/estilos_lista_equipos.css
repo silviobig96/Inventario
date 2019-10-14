@@ -1,0 +1,28 @@
+body{
+	background-color:#ccffff
+}
+.jumbotron{
+	background-image:url("../Imagenes/biblioteca.jpg");
+	background-size: 900px;
+	background-position: center; 
+	padding: 60px;
+	width: 100%;
+	
+}
+.jumbotron h1 {
+	color: white;
+}
+.jumbotron p {
+	color: white;
+}
+.card{
+	max-width: 100%;
+}
+.accion{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.btn.btn-primary {
+  background: #015694 none repeat scroll 0 0;
+    border-color: #015694 ;
+}

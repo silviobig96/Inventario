@@ -1,0 +1,31 @@
+body{
+	background-image: url("../Imagenes/VacasFondos.jpg"); 
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.jumbotron{
+	background-image:url('../Imagenes/fondo para las interfaces.jpg');
+	background-size: 950px;
+	
+	max-width: 100%;
+}
+.jumbotron .lead{
+	color: white;
+}
+.card{
+	background-color:  white;
+	max-width: 100%;
+
+}
+.jumbotron h1{
+	color:  white;
+}
+.form-group{
+
+}
+hr{
+	color: blue;
+}
+label{
+	color: black;
+}

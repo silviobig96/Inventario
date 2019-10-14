@@ -1,0 +1,21 @@
+body{
+	background-image: url("../Imagenes/VacasFondos.jpg");
+	background-repeat: no-repeat;
+	 background-position:  center;
+}
+
+.jumbotron{
+	background-image: url("../Imagenes/LA-GANADERIA1.jpg");
+	padding: 50px;
+	background-size: 950px;
+	background-position: top;
+}
+.card{
+	max-width: 100%;
+}
+.jumbotron .lead{
+	color: white;
+}
+.jumbotron .titulo{
+	color:  white;
+}

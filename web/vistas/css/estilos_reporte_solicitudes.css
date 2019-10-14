@@ -1,0 +1,27 @@
+body{
+	background-color:#ccffff
+}
+.jumbotron{
+	background-image: url('../Imagenes/solicitud.jpg');
+	padding: 70px;
+	width: 100%;
+	background-size: 100% 200%;
+        background-repeat: no-repeat;
+        background-position: center;
+	
+}
+.jumbotron .lead{
+	color: white;
+}
+.card{
+	background-color:  white;
+	max-width: 100%;
+}
+.jumbotron .titulo{
+	color:  white;
+}
+.btn.btn-primary {
+  background: #015694 none repeat scroll 0 0;
+    border-color: #015694 ;
+}
+

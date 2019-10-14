@@ -1,0 +1,50 @@
+body{
+    background-color:#ccffff
+}
+
+*{
+	margin: 0;
+	padding:0;
+}
+header{
+	width: 100%;
+}
+header nav{
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+	background: #024959;
+
+}
+header nav ul{
+	overflow: hidden;
+	list-style:none;
+}
+
+.jumbotron{
+	background-image: url('../Imagenes/ucla_jumbo.jpg');
+	padding: 70px;
+	width: 100%;
+	background-size: 1950px 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+	
+}
+.jumbotron .lead{
+	color: white;
+}
+.card{
+	background-color:  white;
+	max-width: 100%;
+}
+.jumbotron .titulo{
+	color:  white;
+}
+button{
+	background:#007bff;
+	color: white; 
+}
+.h-1{
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-size: 70px;
+}

@@ -1,0 +1,19 @@
+body#formGestion{
+	background-image:url("fondo de login.jpg"); 
+	
+}
+header{
+	background: #66CDAA;
+}
+footer#footer{
+	color: white;
+}
+.text-right  a{
+	color: white;
+}
+p#descripcion{
+	color: white;
+}
+a#luis{
+	color: white;
+}

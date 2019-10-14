@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="vistas/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vistas/css/estilosLogin.css">
+  <link rel="stylesheet" href="vistas/css/bootstrap-grid.css" type="text/css"/>
+  <link rel="stylesheet" href="vistas/css/estilosLogin.css" type="text/css">
+  <link rel="stylesheet" href="vistas/css/estilosLogin.css" type="text/css"/>
+
+
+
+  
+</head>
+
+<body id="LoginForm">
+    <div class="container">
+    <div class="login-form">
+    <div class="main-div">
+        <div class="panel">
+            <img src="./vistas/Imagenes/ucla_logo.jpg" alt="HTML5 Icon2" width="128" height="128">
+            <br>
+            <br>
+       <h2> Login</h2>
+       <p>Introduzca su Usuario y contrase&ntilde;a</p>
+       </div>
+        <form id="Login" action="Controlador">
+
+            <div class="form-group">
+                <input type="text" class="form-control" required id="inputEmail" placeholder="Usuario" name="usuario">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" required id="inputPassword" placeholder="Contrasena" name="contrasena">
+            </div>
+            <div class="forgot">
+              <a href="Controlador?operacion=olvidocon">¿Ha olvidado su contrase&ntilde;a?</a>
+            </div>
+            <button type="submit" class="btn btn-primary" name="operacion" value="Entrar">Entrar</button>
+
+        </form>
+        </div>
+    </div>
+    </div>
+    </body>
+</html>
